@@ -38,7 +38,7 @@ To enable GitHub Pages for this GitHub Action:
 name: Release Helm Charts  
 
 on:
-  workflow_disptach: # Workflow manual Execution
+  workflow_dispatch: # Workflow manual Execution
   push:
     branches:
       - main
